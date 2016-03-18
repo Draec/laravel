@@ -50,7 +50,9 @@
                 @yield('content')
             </div>
             <div class="col-sm-4">
-
+                @section('sidebar')
+                    je suis une side bar
+                @show
             </div>
 
 
